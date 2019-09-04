@@ -1,0 +1,36 @@
+{
+  "name": "template_node_and_jest",
+  "version": "1.0.0",
+  "description": "Template nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosvicente/template-NodeJS.git"
+  },
+  "keywords": [
+    "jest",
+    "nodejs",
+    "express",
+    "postgresql",
+    "tdd"
+  ],
+  "author": "marcosvicente",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcosvicente/template-NodeJS/issues"
+  },
+  "homepage": "https://github.com/marcosvicente/template-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.18.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  }
+}
