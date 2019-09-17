@@ -1,7 +1,9 @@
-import routes from "express".Router()
+import express from "express"
+
+const routes = express.Router();
 
 routes.get("/api", (req, res) => {
-  return res.status(200).send();
+    res.json({status: "Index"})
 })
 
 module.exports = routes;
