@@ -9,7 +9,8 @@
     "db:migrate": "sequelize-cli db:migrate",
     "db:migrate:reset": "sequelize-cli db:migrate:undo:all && npm run db:migrate",
     "test": "cross-env NODE_ENV=test jest --testTimeout=10000",
-    "pretest": "cross-env NODE_ENV=test npm run db:migrate:reset"
+    "pretest": "cross-env NODE_ENV=test npm run db:migrate:reset",
+    "generate:apidoc": "apidoc -f src/app/controller/*.js -o apidoc/"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
+    "apidoc": "^0.17.7",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^24.9.0",

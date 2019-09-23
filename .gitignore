@@ -90,3 +90,7 @@ public
 
 # DynamoDB Local files
 .dynamodb/
+
+
+#remove api doc puglic 
+apidoc/
